@@ -8,7 +8,7 @@ description: Generate detailed manual test cases in CSV format for the given use
 ## Input Requirements
  
 **User Story File Path:** Prompt user to provide the file path at runtime
-- Example: `C:\Users\LAVANYA.CHITTAJALLU\copilot\OptimusCore\1_Base_Repo\User_Story\{filename}.md`
+- Example: `/workspaces/testcase1/1_Base_Repo/User_Story/US_001.md`
 
 - The prompt will ask: "Please provide the User Story file path:"
  
