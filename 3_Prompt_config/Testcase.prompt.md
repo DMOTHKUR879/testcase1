@@ -14,7 +14,7 @@ description: Generate detailed manual test cases in CSV format for the given use
  
 **Template Reference:** `/workspaces/testcase1/1_Base_Repo/Template/Template.md`
 
-**Navigation Steps Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
+**Navigation Steps Reference:** `/workspaces/testcase1/1_Base_Repo/Reference/navigation_steps.md`
 
 **Output Location:** `/workspaces/testcase1/4_Design_Studio/FinalOutput.md`
 
