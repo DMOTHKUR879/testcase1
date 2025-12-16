@@ -8,13 +8,13 @@ description: Generate the manual test cases
 ---
  
 Path:
-Testcase Template :C:\Users\LAVANYA.CHITTAJALLU\Downloads\OptimusCore\1_Base_Repo\Template\Template.md
-User Story :C:\Users\LAVANYA.CHITTAJALLU\Downloads\OptimusCore\1_Base_Repo\User_Story\US_001.md
-Navigation Steps :C:\Users\LAVANYA.CHITTAJALLU\Downloads\OptimusCore\1_Base_Repo\Reference\navigation_steps.md
+Testcase Template :/workspaces/testcase1/1_Base_Repo/Template/Template.md
+User Story :C:/workspaces/testcase1/1_Base_Repo/User_Story/US_001.md
+Navigation Steps :/workspaces/testcase1/1_Base_Repo/Reference/navigation_steps.md
 
 Your goal is to generate Functional test cases based on the Acceptance Criteria available in the UserStory.md file
  
-Generate the test cases in the following path :C:\Users\LAVANYA.CHITTAJALLU\Downloads\OptimusCore\4_Design_Studio\FinalOutput.md
+Generate the test cases in the following path :/workspaces/testcase1/4_Design_Studio/FinalOutput.md
  
 While generating test cases, consider the transaction scenarios as mandatory to be covered:
 •	New Business 
