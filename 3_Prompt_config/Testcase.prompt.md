@@ -12,7 +12,7 @@ description: Generate detailed manual test cases in CSV format for the given use
 
 - The prompt will ask: "Please provide the User Story file path:"
  
-**Template Reference:** `C:\Users\LAVANYA.CHITTAJALLU\copilot\OptimusCore\1_Base_Repo\Template\Template.md`
+**Template Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
 
 **Navigation Steps Reference:** `C:\Users\LAVANYA.CHITTAJALLU\copilot\OptimusCore\1_Base_Repo\Reference\navigation_steps.md`
 
