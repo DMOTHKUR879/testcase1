@@ -14,7 +14,7 @@ description: Generate detailed manual test cases in CSV format for the given use
  
 **Template Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
 
-**Navigation Steps Reference:** `C:\Users\LAVANYA.CHITTAJALLU\copilot\OptimusCore\1_Base_Repo\Reference\navigation_steps.md`
+**Navigation Steps Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
 
 **Output Location:** `C:\Users\LAVANYA.CHITTAJALLU\copilot\OptimusCore\4_Design_Studio\{filename}_TestCases.csv`
 
