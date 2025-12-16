@@ -16,7 +16,7 @@ description: Generate detailed manual test cases in CSV format for the given use
 
 **Navigation Steps Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
 
-**Output Location:** `C:\Users\LAVANYA.CHITTAJALLU\copilot\OptimusCore\4_Design_Studio\{filename}_TestCases.csv`
+**Output Location:** `/workspaces/testcase1/4_Design_Studio/FinalOutput.md`
 
 - The prompt will ask: "Please provide the Output Location file path:"
 
