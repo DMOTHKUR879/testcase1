@@ -12,7 +12,7 @@ description: Generate detailed manual test cases in CSV format for the given use
 
 - The prompt will ask: "Please provide the User Story file path:"
  
-**Template Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
+**Template Reference:** `/workspaces/testcase1/1_Base_Repo/Template/Template.md`
 
 **Navigation Steps Reference:** `/workspaces/testcase1/3_Prompt_config/Testcase.prompt.md`
 
