@@ -1,4 +1,4 @@
-#---
+---
 agent: 'agent'
 description: Generate detailed manual test cases in CSV format for the given user story and acceptance criteria.
 ---
