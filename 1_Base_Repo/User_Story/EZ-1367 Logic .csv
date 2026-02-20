@@ -3,3 +3,8 @@
 ,IPS,ezDocs,
 ,Indeminity Period,Gross Earnings,Gross Earnings Limit (months)
 Scenario 1,Indeminity Period Value,UnSelected,Indeminity Period Value
+,Logic - Gross Profit,,
+,Tab,PD&TE,
+,IPS,ezDocs,
+,Indeminity Period,Gross Profit,Gross Profit Limit (months)
+Scenario 1,Indeminity Period Value,UnSelected,Indeminity Period Value
