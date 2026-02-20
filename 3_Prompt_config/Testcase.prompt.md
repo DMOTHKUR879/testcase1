@@ -34,9 +34,9 @@ Ask the user:
  
 ```
  
-Please provide the User Story file path : 
+Please provide the User Story file path : C:\Users\DIVYA.MOTHKURI\Manual TestCases\Divya-EZdocs\Optimus Core\1_Base_Repo/User_Story/EZ-1367.doc
 
-Path for csv file should be same as user story file path with changes in folder and file name like below: C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\User_Story\Logic_1370.csv
+Path for csv file should be same as user story file path with changes in folder and file name like below: C:\Users\Divya.Mothkuri\Manual TestCases\Divya-EZdocs\Optimus Core\1_Base_Repo/User_Story/EZ-1367 Logic .csv
  
 ```
  
@@ -52,7 +52,7 @@ Path for csv file should be same as user story file path with changes in folder 
  
 - Write expected results as continuous text WITHOUT numbering
  
-- Automatically save the CSV file to: `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\4_Design_Studio\{filename}_TestCases.csv`
+- Automatically save the CSV file to: `C:\Users\DIVYA.MOTHKURI\Manual TestCases\Divya-EZdocs\Optimus Core\4_Design_Studio\{filename}_TestCases.csv`
  
 - Confirm completion with message:
  
@@ -60,7 +60,7 @@ Path for csv file should be same as user story file path with changes in folder 
  
 Test cases generated successfully!
  
-Output file: C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\4_Design_Studio\{filename}_TestCases.csv
+Output file: C:\Users\DIVYA.MOTHKURI\Manual TestCases\Divya-EZdocs\Optimus Core\4_Design_Studio\{filename}_TestCases.csv
 Total test cases: {count}
  
 ```
@@ -77,74 +77,65 @@ Total test cases: {count}
  
 **User Story File Path:** Provided by user at runtime
  
-**Template Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\Template\Template_ips_1370.md`
+**Template Reference:** `C:\Users\DIVYA.MOTHKURI\Manual TestCases\Divya-EZdocs\Optimus Core\1_Base_Repo\Template\Template_ips_1367.md`
  
-**Navigation Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\Reference\navigation_steps_ips_1370.md`
+**Navigation Reference:** `C:\Users\DIVYA.MOTHKURI\Manual TestCases\Divya-EZdocs\Optimus Core\1_Base_Repo\Reference\navigation_steps_ips_1367.md`
  
-**Logic Reference:** `C:\Users\SWETHA.DESHPANDE\Manual TestCases\Swetha-EZdocs\Optimus Core\1_Base_Repo\User_Story\Logic_1370.csv` (Contains detailed scenarios for Extension Cover Mapping, Time Limit, and Qualifying Period)
+**Logic Reference:** `C:\Users\DIVYA.MOTHKURI\Manual TestCases\Divya-EZdocs\Optimus Core\1_Base_Repo\User_Story\Logic_1367.csv` (Contains detailed scenarios for Gross Earnings, Gross Earnings Limit (months),	
+Gross Profit and Gross Profit Limit (months)
 ## Goal
  
  
-Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the ZED application navigation flow from navigation_steps_ips_1370.md. Include all scenarios defined in the Logic_1370.csv file to ensure comprehensive coverage of business logic variations.
+Generate manual test cases in CSV format based on the user story and acceptance criteria. Each test case should follow the template structure and incorporate the ZED application navigation flow from navigation_steps_ips_1367.md. Include all scenarios defined in the Logic_1367.csv file to ensure comprehensive coverage of business logic variations.
  
 ---
  
 ## Scenario-Based Test Case Generation
  
-**The Logic_1370.csv file defines the following scenarios that MUST be included in generated test cases:**
+**The Logic_1367.csv file defines the following scenarios that MUST be included in generated test cases:**
  
-### 1. Logic - Extension Cover Mapping Scenarios:
-- **Scenario 1:** NCP constraint selected - Limit of Liability should NOT be visible and empty
-- **Scenario 2:** Not NCP constraint with Extension Limit Value - Limit of Liability should show Extension Limit Value
-- **Scenario 3:** Not NCP constraint with empty limit and cover NOT Available - Limit of Liability should be visible and empty
-- **Scenario 4:** Not NCP constraint with empty limit and cover Available with CoverProvided instruction - Limit of Liability should show General Limit Value
-- **Scenario 5:** Not NCP constraint with empty limit and cover Available with CoverNotProvided instruction - Limit of Liability should be visible and empty
+### 1. Logic - Gross Earnings :
+- **Scenario 1:** On IPS Admin should select the General Tab and should give the value for Indemnity Period (in month). Then on EZdocs PD&TE screen under TE Tab, Gross Earnings should be unselected and Gross Earnings Limit (months) should populate the value of Indemnity Period (in month).
+
  
-### 2. Logic - Time Limit Scenarios (for Civil or Military Authority coverage):
-- **Scenario 1:** Time Limit basis KM - Number of days, Selection dropdown (KM), and Number of KM/Miles should be populated with Extension values
-- **Scenario 2:** Time Limit basis Miles - Number of days, Selection dropdown (Miles), and Number of KM/Miles should be populated with Extension values
-- **Scenario 3:** Time Limit basis Any Others - Number of days populated, Selection dropdown (No Selection), and Number of KM/Miles populated
+### 2. Logic - Gross Profit:
+- **Scenario 1:** On IPS Admin should select the General Tab and should give the value for Indemnity Period (in month). Then on EZdocs PD&TE screen under TE Tab, Gross Profit should be unselected and Gross Profit Limit (months) should populate the value of Indemnity Period (in month).
+
  
-### 3. Logic - Qualifying Period Scenarios (for Civil or Military Authority coverage):
-- **Scenario 1:** Qualifying Period basis Hours - Fields populated with Hours selection, Qualifying Period NCP unselected
-- **Scenario 2:** Qualifying Period basis Days - Fields populated with Days selection, Qualifying Period NCP unselected
-- **Scenario 3:** Qualifying Period basis Any Others - Fields populated with No Selection, Qualifying Period NCP unselected
-- **Scenario 4:** Empty Qualifying Period with NCP selected - Fields should NOT be visible and ignored
+
  
  
 ## Important Notes
  
 1. Generate exactly one test case per acceptance criterion in the user story
  
-2. **CRITICAL: Generate at least one dedicated test case for EACH scenario defined in Logic_1370.csv** (minimum 12 scenarios total: 5 Extension Cover Mapping + 3 Time Limit + 4 Qualifying Period)
+2. **CRITICAL: Generate at least one dedicated test case for EACH scenario defined in Logic_1367.csv** (minimum 1 scenarios total: Gross Earnings+ Gross Profit )
  
-3. For Extension Cover Mapping scenarios: Generate test cases for Accounts Receivable, Better Green Upgrade, Brands and Labels, and Civil or Military Order coverages covering all 5 scenarios
+3. For Gross Earning: Generate test cases for Gross Earning 1 scenario
+
+4. For Gross Profit: Generate test cases for Gross Profit 1 Scenario
  
-4. For Time Limit scenarios: Generate test cases for Civil or Military Authority coverage with all 3 time limit basis variations (KM, Miles, Any Others)
+5. Include only relevant navigation steps based on the specific scenario scope  
  
-5. For Qualifying Period scenarios: Generate test cases for Civil or Military Authority coverage with all 4 qualifying period variations (Hours, Days, Any Others, Empty with NCP selected)
+6. Keep test cases atomic and focused on specific scenario validation
  
-6. Include only relevant navigation steps based on the specific scenario scope  
+7. Ensure proper CSV escaping for special characters and multi-line cells (use double quotes)
+
+8. Number actions sequentially (1., 2., 3., etc.) with line breaks between steps
  
-7. Keep test cases atomic and focused on specific scenario validation
+9. Write expected results as continuous text WITHOUT numbering, separated by line breaks
  
-8. Ensure proper CSV escaping for special characters and multi-line cells (use double quotes)
+10. Reference navigation_steps_ips_1367.md for accurate ZED workflow patterns
  
-9. Number actions sequentially (1., 2., 3., etc.) with line breaks between steps
+11. Use Template_ips_1367.md structure for field mapping and test case structure (reference only, not copy values)
  
-10. Write expected results as continuous text WITHOUT numbering, separated by line breaks
+12. Use forward slashes (/) consistently in all file paths
  
-11. Reference navigation_steps_ips_1370.md for accurate ZED workflow patterns
+13. Extract filename from user story path correctly for output file naming (e.g., EZ-1367.doc → EZ-1367)
  
-12. Use Template_ips_1370.md structure for field mapping and test case structure (reference only, not copy values)
+14. Just refer the Template_ips_1367.md file. Don't use the content or values present in the Template_ips_1367.md file.
  
-13. Use forward slashes (/) consistently in all file paths
- 
-14. Extract filename from user story path correctly for output file naming (e.g., EZ-1370.doc → EZ-1370)
- 
-15. Just refer the Template_ips_1370.md file. Don't use the content or values present in the Template_ips_1370.md file.
- 
-16. Include positive and negative scenarios as defined in the Logic_1370.csv file based on business logic variations
+15. Include positive and negative scenarios as defined in the Logic_1367.csv file based on business logic variations
  
  
  
