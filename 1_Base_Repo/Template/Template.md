@@ -1,13 +1,12 @@
 TC ID : TC_01
 Test type : Manual
-Test case Name:TC01_Verify the Described Causes Screen - Coverage Flood
-Description: The objective of this test case is to validate, the  Described Causes Screen - Coverage Flood with logic and scenerio
-Actions:1. Login to ezdocs application and navigate to recevied property
+Test case Name:TC01_Verify the Inforamtion Screen Screen - Default values
+Description: The objective of this test case is to validate, the  Inforamtion screen - Default values
+Actions:1. Login to ezdocs application and navigate to recevied Laibality LOB
 2. Click on any existing submission
-3. By Clicking on Next on Information Screen navigate to Described Causes Screen 
-4. Click on Coverage Flood and click on show CIIM and go to Constraints tab there we can create the new Constraints with coverage Constraints name as flood and should go to that flood coverage and should click on deductibles and should the values as per the logic excel 
-5. On Ezdocs screen click on sync CIIM
-Expected Results:User shoud able to give the data in IPS Admin for deducitble values  and that data should populate on Ezdocs Coverage flood 
+3. By Clicking on Next Navigate to information Screen
+4.  click on Sync CIIM on information screen default values should populate on Ezdocs screen 
+Expected Results:User shoud able to sync default data and that data should populate on Ezdocs Inforamtion Screen
 Status:Todo
-User story:EZ-1383
+User story:EZ-1387
 Priority:Medium
