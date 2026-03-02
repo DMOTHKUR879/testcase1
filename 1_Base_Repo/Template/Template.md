@@ -9,5 +9,5 @@ Actions:1. Login to ezdocs application and navigate to recevied property
 5. On Ezdocs screen click on sync CIIM
 Expected Results:User shoud able to give the data in IPS Admin for Indemnity period and that data should populate on Ezdocs on TE as Gross Earning toggle selected and Gross Earnings Limit (months) as Indeminity Period Value
 Status:Todo
-User story:EZ-1367
+User story:EZ-1383
 Priority:Medium

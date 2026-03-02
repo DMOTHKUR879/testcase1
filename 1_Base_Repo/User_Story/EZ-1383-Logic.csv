@@ -1,0 +1,76 @@
+﻿,Logic - Deductibles Percent,,,,,,,
+,Tab,Described Causes,,,,,,
+,Constraint,Constraint Names,,,,,,
+,IPS,,,,,ezDocs,,
+,Constraint,Deduct %,Deduct Appl to,Time Deductable Basis,100% Deduct Value,Policy Deductibles,Field Name,Field Values
+Scenario 1,Constraint Name,Deduct % value,PD/BI,No check,empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Deduct % value
+,,,,,,,TE Deductible,Deduct % value
+Scenario 2,Constraint Name,empty,PD/BI,No check,100% Deduct Value,Combined Coverages,Combined Coverages Deductible,100% Deduct Value
+Scenario 3,Constraint Name,Deduct % value,PD,No Option,empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Deduct % value
+,,,,,,,TE Deductible,empty
+Scenario 4,Constraint Name,empty,PD,No Option,100% Deduct Value,Property Damage (PD) & Time Element (TE),PD Deductible,100% Deduct Value
+,,,,,,,TE Deductible NCP,Selected
+,,,,,,,TE Deductible,Not Visible
+Scenario 5,Constraint Name,Deduct % value,BI,No Option,empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,empty
+,,,,,,,TE Deductible,Deduct % value
+Scenario 6,Constraint Name,empty,BI,No Option,100% Deduct Value,Property Damage (PD) & Time Element (TE),PD Deductible,100% Deduct Value
+,,,,,,,TE Deductible NCP,Selected
+,,,,,,,TE Deductible,Not Visible
+Scenario 7,Constraint Name,Deduct % value,PD,Days (ADV),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Deduct % value
+,,,,,,,TE Deductible,empty
+Scenario 8,Constraint Name,empty,PD,Days (ADV),100% Deduct Value,Property Damage (PD) & ADV Time element (TE),PD Deductible,100% Deduct Value
+,,,,,,,ADV TE Deductible,Empty
+Scenario 9,Constraint Name,Deduct % value,BI,Days (ADV),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,empty
+,,,,,,,TE Deductible,Deduct % value
+Scenario 10,Constraint Name,empty,BI,Days (ADV),100% Deduct Value,Property Damage (PD) & ADV Time element (TE),PD Deductible,Empty
+,,,,,,,ADV TE Deductible,100% Deduct Value
+Scenario 15,Constraint Name,Deduct % value,PD,Days (DV),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Deduct % value
+,,,,,,,TE Deductible,empty
+Scenario 16,Constraint Name,empty,PD,Days (DV),100% Deduct Value,Property Damage (PD) & DV Time element (TE),PD Deductible,100% Deduct Value
+,,,,,,,TE Days Deductible,Empty
+Scenario 17,Constraint Name,Deduct % value,BI,Days (DV),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Empty
+,,,,,,,TE Deductible,Deduct % value
+Scenario 18,Constraint Name,empty,BI,Days (DV),100% Deduct Value,Property Damage (PD) & DV Time element (TE),PD Deductible,Empty
+,,,,,,,TE Days Deductible,100% Deduct Value
+Scenario 11,Constraint Name,Deduct % value,PD,Days (TD),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Deduct % value
+,,,,,,,TE Deductible,empty
+Scenario 12,Constraint Name,empty,PD,Days (TD),100% Deduct Value,Property Damage (PD) & Time element (days),PD Deductible,100% Deduct Value
+,,,,,,,DV TE Deductible,Empty
+Scenario 13,Constraint Name,Deduct % value,BI,Days (TD),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Empty
+,,,,,,,TE Deductible,Deduct % value
+Scenario 14,Constraint Name,empty,BI,Days (TD),100% Deduct Value,Property Damage (PD) & Time element (days),PD Deductible,Empty
+,,,,,,,DV TE Deductible,100% Deduct Value
+Scenario 19,Constraint Name,Deduct % value,PD,Hours (TD),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Deduct % value
+,,,,,,,TE Deductible,empty
+Scenario 20,Constraint Name,empty,PD,Hours (TD),100% Deduct Value,Property Damage (PD) & Time element (TE) (hours),PD Deductible,100% Deduct Value
+,,,,,,,TE Hours Deductible,Empty
+Scenario 21,Constraint Name,Deduct % value,BI,Hours (TD),empty,% Property Damage (PD) & % Time Element (TE),PD Deductible,Empty
+,,,,,,,TE Deductible,Deduct % value
+Scenario 22,Constraint Name,empty,BI,Hours (TD),100% Deduct Value,Property Damage (PD) & Time element (TE) (hours),PD Deductible,Empty
+,,,,,,,TE Hours Deductible,100% Deduct Value
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,Logic - Minimum Deductibles,,,,,,,
+,Tab,Described Causes,,,,,,
+,Constraint,Constraint Names,,,,,,
+,IPS,,,,ezDocs,,,
+,Constraint,Deduct Appl to,Deduct Min,Minimum Deductibles,Field Name,Field Values,,
+Scenario 1,Constraint Name,PD/BI,Deduct Min value,$ Combined,Minimum combined deductible,Deduct Min value,,
+Scenario 2,Constraint Name,PD,Deduct Min value,$ Property Damage (PD) & $ Time Element (TE),Minimum PD Deductible,Deduct Min value,,
+,,,,,Minimum TE Deductible NCP,Unselected,,
+,,,,,Minimum TE Deductible,empty,,
+Scenario 3,Constraint Name,BI,Deduct Min value,$ Property Damage (PD) & $ Time Element (TE),Minimum PD Deductible,empty,,
+,,,,,Minimum TE Deductible NCP,Unselected,,
+,,,,,Minimum TE Deductible,Deduct Min value,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,Logic - TimeSpecification,,,,,,,
+,Tab,Information,,,,,,
+,Constraint,Constraint Name,,,,,,
+,IPS,,ezDocs,,,,,
+,Constraint,Time Specification,Occurence,,,,,
+Scenario 1,Constraint Name,Time Specification Value,Time Specification Value,,,,,
+Scenario 2,Constraint Name,empty,empty,,,,,
