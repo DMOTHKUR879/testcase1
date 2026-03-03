@@ -1,0 +1,9 @@
+﻿,Logic - Non-Owned Auto,,
+,Tab,Information,
+,Constraint,Non-Owned Auto,
+,IPS,,ezDocs
+,Constraint,Cover,Non-Owned Automobile Included
+Scenario 1,Non-Owned Auto,Non-Owned Automobile Liability,Selected
+Scenario 2,empty,Non-Owned Automobile Liability,UnSelected
+Scenario 3,Non-Owned Auto,empty,UnSelected
+Scenario 4,empty,empty,UnSelected
