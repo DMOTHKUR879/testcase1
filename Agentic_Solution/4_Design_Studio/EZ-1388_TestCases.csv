@@ -1,0 +1,21 @@
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority
+EZ-1388_TC01,Manual,Non-Owned Auto - Toggle Selected,"Verify Non-Owned Automobile toggle is selected when Constraint is 'Non-Owned Auto' and cover tab is 'Non-Owned Automobile Liability'.","1. Open Ezdocs application
+2. Follow navigation steps per navigation_steps_ips_1388.md to reach the cover selection screen
+3. Set Constraint = Non-Owned Auto
+4. Select cover tab 'Non-Owned Automobile Liability'
+5. Observe the Non-Owned Automobile toggle state","On Ezdocs, Non-Owned Automobile toggle is selected.",/workspaces/testcase1/1_Base_Repo/User_Story/EZ-1388.doc,Draft,EZ-1388,Medium
+EZ-1388_TC02,Manual,Non-Owned Auto - Toggle Unselected (Constraint empty),"Verify Non-Owned Automobile toggle is unselected when Constraint is empty and cover tab is 'Non-Owned Automobile Liability'.","1. Open Ezdocs application
+2. Navigate via navigation_steps_ips_1388.md to the cover selection screen
+3. Set Constraint = (leave empty)
+4. Select cover tab 'Non-Owned Automobile Liability'
+5. Observe the Non-Owned Automobile toggle state","On Ezdocs, Non-Owned Automobile toggle is unselected.",/workspaces/testcase1/1_Base_Repo/User_Story/EZ-1388.doc,Draft,EZ-1388,Medium
+EZ-1388_TC03,Manual,Non-Owned Auto - Toggle Unselected (Cover empty),"Verify Non-Owned Automobile toggle is unselected when Constraint is 'Non-Owned Auto' and cover tab is empty.","1. Open Ezdocs application
+2. Navigate via navigation_steps_ips_1388.md to the cover selection screen
+3. Set Constraint = Non-Owned Auto
+4. Ensure cover tab is not selected (leave empty)
+5. Observe the Non-Owned Automobile toggle state","On Ezdocs, Non-Owned Automobile toggle is unselected.",/workspaces/testcase1/1_Base_Repo/User_Story/EZ-1388.doc,Draft,EZ-1388,Medium
+EZ-1388_TC04,Manual,Non-Owned Auto - Toggle Unselected (Both empty),"Verify Non-Owned Automobile toggle is unselected when Constraint is empty and cover tab is empty.","1. Open Ezdocs application
+2. Navigate via navigation_steps_ips_1388.md to the cover selection screen
+3. Set Constraint = (leave empty)
+4. Leave cover tab empty
+5. Observe the Non-Owned Automobile toggle state","On Ezdocs, Non-Owned Automobile toggle is unselected.",/workspaces/testcase1/1_Base_Repo/User_Story/EZ-1388.doc,Draft,EZ-1388,Medium
