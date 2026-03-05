@@ -1,0 +1,39 @@
+TC ID,Test type,Test case Name,Description,Actions,Expected Results,Test Repository Path,Status,User story,Priority
+TC-EZ-1389-001,Manual,TC01_Verify_FormType_Occurrence_When_ClaimsTrigger_Occurrence,Validate that Form Type is populated as Occurrence when Claims Trigger is set to Occurrence in IPS Admin,"1. Login to ezdocs application and navigate to received Liability LOB
+2. Click on any existing submission
+3. Click Next to navigate to information Screen
+4. Click Show CIIM to access IPS Admin screen
+5. In IPS Admin, under party tab, set liability Claims Trigger to Occurrence
+6. Return to information screen
+7. Click Sync CIIM to synchronize data
+8. Verify the Form Type field on the information screen","Form Type should be selected as Occurrence",1_Base_Repo/User_Story/EZ-1389 logic.csv,Todo,EZ-1389,High
+TC-EZ-1389-002,Manual,TC02_Verify_FormType_ClaimsMade_When_ClaimsTrigger_ClaimsMade,Validate that Form Type is populated as Claims-made when Claims Trigger is set to Claims-made in IPS Admin,"1. Login to ezdocs application and navigate to received Liability LOB
+2. Click on any existing submission
+3. Click Next to navigate to information Screen
+4. Click Show CIIM to access IPS Admin screen
+5. In IPS Admin, under party tab, set liability Claims Trigger to Claims-made
+6. Return to information screen
+7. Click Sync CIIM to synchronize data
+8. Verify the Form Type field on the information screen","Form Type should be selected as Claims-made",1_Base_Repo/User_Story/EZ-1389 logic.csv,Todo,EZ-1389,High
+TC-EZ-1389-003,Manual,TC03_Verify_FormType_Empty_When_ClaimsTrigger_Other,Validate that Form Type is empty when Claims Trigger is set to Other in IPS Admin,"1. Login to ezdocs application and navigate to received Liability LOB
+2. Click on any existing submission
+3. Click Next to navigate to information Screen
+4. Click Show CIIM to access IPS Admin screen
+5. In IPS Admin, under party tab, set liability Claims Trigger to Other
+6. Return to information screen
+7. Click Sync CIIM to synchronize data
+8. Verify the Form Type field on the information screen","Form Type should be unselected or empty",1_Base_Repo/User_Story/EZ-1389 logic.csv,Todo,EZ-1389,High
+TC-EZ-1389-004,Manual,TC04_Verify_FormType_Empty_When_ClaimsTrigger_Empty,Validate that Form Type is empty when Claims Trigger is left empty in IPS Admin,"1. Login to ezdocs application and navigate to received Liability LOB
+2. Click on any existing submission
+3. Click Next to navigate to information Screen
+4. Click Show CIIM to access IPS Admin screen
+5. In IPS Admin, under party tab, leave liability Claims Trigger empty
+6. Return to information screen
+7. Click Sync CIIM to synchronize data
+8. Verify the Form Type field on the information screen","Form Type should be unselected or empty",1_Base_Repo/User_Story/EZ-1389 logic.csv,Todo,EZ-1389,Medium
+TC-EZ-1389-005,Manual,TC05_Verify_FormType_Population_After_Sync,Validate that Form Type populates correctly after syncing CIIM data on the information screen,"1. Login to ezdocs application and navigate to received Liability LOB
+2. Click on any existing submission
+3. Click Next to navigate to information Screen
+4. Ensure Form Type is initially empty
+5. Click Sync CIIM to synchronize data
+6. Verify the Form Type field populates based on Claims Trigger value","Form Type should populate according to the Claims Trigger value set in IPS Admin (Occurrence, Claims-made, or empty)",1_Base_Repo/User_Story/EZ-1389 logic.csv,Todo,EZ-1389,Medium
